@@ -1,7 +1,7 @@
 const clickCount = 420;
 
 const vals = ["4", "four", "Four", "四", "0100"]
-let i = 0;
+let i = Math.random() % vals.length;
 let count = 0;
 
 function changeNumber() {
